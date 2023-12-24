@@ -57,12 +57,14 @@
   .thumbnail-wrapper{
     border: 1px solid #d2d2d2;
     margin-bottom: 10px;
+    cursor: pointer;
   }
   .thumbnail-wrapper img{
     max-width: 53px;
   }
   .thumb-overflow{
     overflow: hidden;
+    margin-top: 5px;
   }
   .img-container{
     height:504px;
