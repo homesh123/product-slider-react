@@ -1,0 +1,70 @@
+.horizontal-slider {
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+    margin: auto;
+  }
+  .example-thumb {
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+    background-color: green;
+    border: 5px solid green;
+    border-radius: 100%;
+    display: block;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 44%);
+  }
+  .example-thumb.active {
+    background-color: green;
+  }
+  .example-track {
+    position: relative;
+    background-color: green;
+    background-image: linear-gradient(to right, #fff 56%, rgba(255, 255, 255, 0) 27%);
+    background-position: top;
+    background-size: 7px 21px;
+    background-repeat: repeat-x;
+  }
+  .example-track.example-track-0 {
+    background-color: green;
+    background-image: none;
+  }
+  .horizontal-slider .example-track {
+    top: 20px;
+    height: 4px;
+  }
+  .horizontal-slider .example-thumb {
+    top: 12px;
+    width: 20px;
+    outline: none;
+    height: 20px;
+    line-height: 38px;
+  }
+
+  .prod-contaimer{
+    width: 642px;
+    min-height: 642px;
+    padding: 10px;
+  }
+  .mainImg{
+    width: 504px;
+    height: 504px;
+  }
+  .thumbs-container{
+    width: 55px;
+    margin: 0 auto;
+  }
+  .thumbnail-wrapper{
+    border: 1px solid #d2d2d2;
+    margin-bottom: 10px;
+  }
+  .thumbnail-wrapper img{
+    max-width: 53px;
+  }
+  .thumb-overflow{
+    overflow: hidden;
+  }
+  .img-container{
+    height:504px;
+    overflow: hidden;
+  }
